@@ -150,16 +150,6 @@ public class DBHelper extends SQLiteOpenHelper {
         return results;
     }
 
-    public int deleteNote(int id) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        String condition = COLUMN_ID + "= ?";
-        String[] args = {String.valueOf(id)};
-        int results = db.delete(TABLE_TASK, condition, args);
-        db.close();
-
-        return results;
-    }
-
     public int updateSong(Songs title, Songs singers, Songs year, Songs stars) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
