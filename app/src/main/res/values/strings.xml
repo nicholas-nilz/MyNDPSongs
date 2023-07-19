@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Songs</string>
+    <string name="playlist">nicholas playlist</string>
+    <string name="title">Song Title</string>
+    <string name="singers">Singers</string>
+    <string name="year">Year</string>
+    <string name="stars">Stars</string>
+    <string name="insert">INSERT</string>
+    <string name="show">SHOW LIST</string>
+    <string name="rb1">1</string>
+    <string name="rb2">2</string>
+    <string name="rb3">3</string>
+    <string name="rb4">4</string>
+    <string name="rb5">5</string>
+    <string name="lv">5</string>
+    <string name="back">BACK</string>
+    <string name="update">UPDATE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="delete">DELETE</string>
+    <string name="showStars">SHOW ALL SONGS WITH 5 *</string>
+
+
+</resources>
